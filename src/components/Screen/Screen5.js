@@ -14,7 +14,6 @@ export default class Screen5 extends Component {
             <View>
                 <FlatList
                     data={flatListData}
-
                     renderItem={({ item }) => {
                         return (
                         <View>

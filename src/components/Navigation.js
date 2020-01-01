@@ -56,6 +56,17 @@ const News = createStackNavigator({
     }
 });
 
+const Quiz = createStackNavigator({
+    News: {
+        screen: Screen3,
+        navigationOptions: {
+            headerTitle: 'Quiz',
+            headerStyle: styles.screenShadow
+        }
+    }
+});
+
+
 
 
 const BottomTab = createMaterialTopTabNavigator(
@@ -74,6 +85,14 @@ const BottomTab = createMaterialTopTabNavigator(
             navigationOptions: {
                 tabBarIcon: () => (
                     <Icon name={"send"} size={22} color={'#168bc9'}/>
+                )
+            }
+        },
+        Quiz: {
+            screen: Quiz,
+            navigationOptions: {
+                tabBarIcon: () => (
+                    <Icon name={"question"} size={22} color={'#168bc9'}/>
                 )
             }
         },
