@@ -5,8 +5,8 @@ import SplashScreen from 'react-native-splash-screen';
 import Firebase from './src/Apis/firebase'
 
 export default function App() {
-  return (
-    <Main />
-  );
+    return (
+        <Main />
+    );
 }
 
