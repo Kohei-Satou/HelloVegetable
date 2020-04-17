@@ -13,7 +13,7 @@ export default class Screen2 extends Component{
     };
     
     componentDidMount(){
-        newsApi.getContents('ラグビー', 50)
+        newsApi.getContents('', 50)
             .then((data)=>{
                 this.setState({
                     list:data

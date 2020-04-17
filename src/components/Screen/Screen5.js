@@ -59,11 +59,11 @@ const styles = StyleSheet.create({
         opacity: 0.8
     },
     textStyle: {
-        fontSize: 17,
+        fontSize: 20,
         textAlign: 'center',
         color: '#000000',
         marginBottom: 3,
         margin: 15,
-        lineHeight: 17*1.5
+        lineHeight: 20*1.5
     }
 });
